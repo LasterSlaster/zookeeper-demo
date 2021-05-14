@@ -1,0 +1,117 @@
+#
+# JARs aren't checked in, they are fetched by sbt
+#
+/lib/*.jar
+/test/files/codelib/*.jar
+/test/files/lib/*.jar
+/test/files/speclib/instrumented.jar
+/tools/*.jar
+
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.bsp/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea
+
+# ENSIME specific
+.ensime_cach
+.ensime
+.ammonite/
+metals.sbt
+metals/project/
+local.*
+.DS_Store
+node_modules
+lib/core/metadata.js
+lib/core/metadataBlog.js
+website/translated_docs
+website/build/
+website/yarn.lock
+website/node_modules
+website/i18n/*
+!website/i18n/en.json
+project/metals.sbt
+coursier
+
+# Developer specific properties
+/build.properties
+/buildcharacter.properties
+
+# might get generated when testing Jenkins scripts locally
+/jenkins.properties
+
+# target directory for build
+/build/
+
+# other
+/out/
+/bin/
+/sandbox/
+
+# intellij
+/src/intellij*/*.iml
+/src/intellij*/*.ipr
+/src/intellij*/*.iws
+**/.cache
+/.idea
+/.settings
+
+# vscode
+/.vscode
+
+# Standard symbolic link to build/quick/bin
+/qbin
+
+# sbt's target directories
+/target/
+/project/**/target/
+/test/macro-annot/target/
+/test/files/target/
+/test/target/
+/build-sbt/
+local.sbt
+jitwatch.out
+
+# Used by the restarr/restarrFull commands as target directories
+/build-restarr/
+/target-restarr/
+
+# metals
+.metals
+.bloop
+**/.bloop
+project/**/metals.sbt
+
+# Vim/NeoVim
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
