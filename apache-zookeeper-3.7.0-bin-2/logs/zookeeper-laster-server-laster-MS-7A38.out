@@ -1,0 +1,542 @@
+2021-05-09 22:10:45,162 [myid:] - INFO  [main:QuorumPeerConfig@174] - Reading configuration from: /home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../conf/zoo.cfg
+2021-05-09 22:10:45,170 [myid:] - INFO  [main:QuorumPeerConfig@444] - clientPortAddress is 0.0.0.0:2182
+2021-05-09 22:10:45,170 [myid:] - INFO  [main:QuorumPeerConfig@448] - secureClientPort is not set
+2021-05-09 22:10:45,170 [myid:] - INFO  [main:QuorumPeerConfig@464] - observerMasterPort is not set
+2021-05-09 22:10:45,170 [myid:] - INFO  [main:QuorumPeerConfig@481] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2021-05-09 22:10:45,175 [myid:2] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2021-05-09 22:10:45,175 [myid:2] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2021-05-09 22:10:45,175 [myid:2] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2021-05-09 22:10:45,177 [myid:2] - INFO  [main:ManagedUtil@44] - Log4j 1.2 jmx support found and enabled.
+2021-05-09 22:10:45,182 [myid:2] - INFO  [main:QuorumPeerMain@152] - Starting quorum peer, myid=2
+2021-05-09 22:10:45,188 [myid:2] - INFO  [main:ServerMetrics@62] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@3bbc39f8
+2021-05-09 22:10:45,189 [myid:2] - INFO  [main:DigestAuthenticationProvider@47] - ACL digest algorithm is: SHA1
+2021-05-09 22:10:45,189 [myid:2] - INFO  [main:DigestAuthenticationProvider@61] - zookeeper.DigestAuthenticationProvider.enabled = true
+2021-05-09 22:10:45,193 [myid:2] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2021-05-09 22:10:45,193 [myid:2] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2021-05-09 22:10:45,195 [myid:2] - INFO  [main:NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2021-05-09 22:10:45,199 [myid:2] - INFO  [main:NIOServerCnxnFactory@660] - binding to port 0.0.0.0/0.0.0.0:2182
+2021-05-09 22:10:45,203 [myid:2] - INFO  [main:QuorumPeer@796] - zookeeper.quorumCnxnTimeoutMs=-1
+2021-05-09 22:10:45,216 [myid:2] - INFO  [main:Log@169] - Logging initialized @322ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-05-09 22:10:45,261 [myid:2] - WARN  [main:ContextHandler@1660] - o.e.j.s.ServletContextHandler@dd05255{/,null,STOPPED} contextPath ends with /*
+2021-05-09 22:10:45,261 [myid:2] - WARN  [main:ContextHandler@1671] - Empty contextPath
+2021-05-09 22:10:45,274 [myid:2] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-05-09 22:10:45,276 [myid:2] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2021-05-09 22:10:45,277 [myid:2] - INFO  [main:QuorumPeer@1739] - Local sessions disabled
+2021-05-09 22:10:45,277 [myid:2] - INFO  [main:QuorumPeer@1750] - Local session upgrading disabled
+2021-05-09 22:10:45,277 [myid:2] - INFO  [main:QuorumPeer@1717] - tickTime set to 2000
+2021-05-09 22:10:45,277 [myid:2] - INFO  [main:QuorumPeer@1761] - minSessionTimeout set to 4000
+2021-05-09 22:10:45,278 [myid:2] - INFO  [main:QuorumPeer@1772] - maxSessionTimeout set to 40000
+2021-05-09 22:10:45,278 [myid:2] - INFO  [main:QuorumPeer@1797] - initLimit set to 10
+2021-05-09 22:10:45,278 [myid:2] - INFO  [main:QuorumPeer@1984] - syncLimit set to 5
+2021-05-09 22:10:45,278 [myid:2] - INFO  [main:QuorumPeer@1999] - connectToLearnerMasterLimit set to 0
+2021-05-09 22:10:45,283 [myid:2] - INFO  [main:ZookeeperBanner@42] - 
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2021-05-09 22:10:45,284 [myid:2] - INFO  [main:ZookeeperBanner@42] - 
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.7.0-e3704b390a6697bfdf4b0bef79e3da7a4f6bac4b, built on 2021-03-17 09:46 UTC
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:host.name=laster-MS-7A38
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:java.version=11.0.11
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:java.vendor=Ubuntu
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:java.class.path=/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../zookeeper-server/target/classes:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../build/classes:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../zookeeper-server/target/lib/*.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../build/lib/*.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/zookeeper-prometheus-metrics-3.7.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/zookeeper-jute-3.7.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/zookeeper-3.7.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/snappy-java-1.1.7.7.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/slf4j-log4j12-1.7.30.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/slf4j-api-1.7.30.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/simpleclient_servlet-0.9.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/simpleclient_hotspot-0.9.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/simpleclient_common-0.9.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/simpleclient-0.9.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/netty-transport-native-unix-common-4.1.59.Final.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/netty-transport-native-epoll-4.1.59.Final.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/netty-transport-4.1.59.Final.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/netty-resolver-4.1.59.Final.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/netty-handler-4.1.59.Final.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/netty-common-4.1.59.Final.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/netty-codec-4.1.59.Final.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/netty-buffer-4.1.59.Final.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/metrics-core-4.1.12.1.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/log4j-1.2.17.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jline-2.14.6.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jetty-util-ajax-9.4.38.v20210224.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jetty-util-9.4.38.v20210224.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jetty-servlet-9.4.38.v20210224.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jetty-server-9.4.38.v20210224.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jetty-security-9.4.38.v20210224.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jetty-io-9.4.38.v20210224.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jetty-http-9.4.38.v20210224.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/javax.servlet-api-3.1.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jackson-databind-2.10.5.1.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jackson-core-2.10.5.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/jackson-annotations-2.10.5.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/commons-cli-1.4.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../lib/audience-annotations-0.12.0.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../zookeeper-*.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../zookeeper-server/src/main/resources/lib/*.jar:/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/bin/../conf:
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/tmp
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:os.name=Linux
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:os.arch=amd64
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:os.version=5.8.0-50-generic
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:user.name=laster
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:user.home=/home/laster
+2021-05-09 22:10:45,285 [myid:2] - INFO  [main:Environment@98] - Server environment:user.dir=/home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:Environment@98] - Server environment:os.memory.free=231MB
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:Environment@98] - Server environment:os.memory.max=1000MB
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:Environment@98] - Server environment:os.memory.total=254MB
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:ZooKeeperServer@138] - zookeeper.enableEagerACLCheck = false
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:ZooKeeperServer@151] - zookeeper.digest.enabled = true
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:ZooKeeperServer@155] - zookeeper.closeSessionTxn.enabled = true
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:ZooKeeperServer@1499] - zookeeper.flushDelay=0
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:ZooKeeperServer@1508] - zookeeper.maxWriteQueuePollTime=0
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:ZooKeeperServer@1517] - zookeeper.maxBatchSize=1000
+2021-05-09 22:10:45,286 [myid:2] - INFO  [main:ZooKeeperServer@260] - zookeeper.intBufferStartingSizeBytes = 1024
+2021-05-09 22:10:45,288 [myid:2] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2021-05-09 22:10:45,288 [myid:2] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2021-05-09 22:10:45,289 [myid:2] - INFO  [main:ZKDatabase@133] - zookeeper.snapshotSizeFactor = 0.33
+2021-05-09 22:10:45,289 [myid:2] - INFO  [main:ZKDatabase@153] - zookeeper.commitLogCount=500
+2021-05-09 22:10:45,295 [myid:2] - INFO  [main:QuorumPeer@2063] - Using insecure (non-TLS) quorum communication
+2021-05-09 22:10:45,295 [myid:2] - INFO  [main:QuorumPeer@2069] - Port unification disabled
+2021-05-09 22:10:45,295 [myid:2] - INFO  [main:QuorumPeer@179] - multiAddress.enabled set to false
+2021-05-09 22:10:45,295 [myid:2] - INFO  [main:QuorumPeer@204] - multiAddress.reachabilityCheckEnabled set to true
+2021-05-09 22:10:45,295 [myid:2] - INFO  [main:QuorumPeer@191] - multiAddress.reachabilityCheckTimeoutMs set to 1000
+2021-05-09 22:10:45,295 [myid:2] - INFO  [main:QuorumPeer@2524] - QuorumPeer communication is not secured! (SASL auth disabled)
+2021-05-09 22:10:45,295 [myid:2] - INFO  [main:QuorumPeer@2549] - quorum.cnxn.threads.size set to 20
+2021-05-09 22:10:45,298 [myid:2] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2021-05-09 22:10:45,298 [myid:2] - INFO  [main:FileTxnSnapLog@479] - Snapshotting: 0x0 to /home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/data/version-2/snapshot.0
+2021-05-09 22:10:45,300 [myid:2] - INFO  [main:ZKDatabase@290] - Snapshot loaded in 4 ms, highest zxid is 0x0, digest is 1371985504
+2021-05-09 22:10:45,300 [myid:2] - INFO  [main:QuorumPeer@1157] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2021-05-09 22:10:45,307 [myid:2] - INFO  [main:QuorumPeer@1177] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2021-05-09 22:10:45,324 [myid:2] - INFO  [main:Server@375] - jetty-9.4.38.v20210224; built: 2021-02-24T20:25:07.675Z; git: 288f3cc74549e8a913bf363250b0744f2695b8e6; jvm 11.0.11+9-Ubuntu-0ubuntu2.20.04
+2021-05-09 22:10:45,343 [myid:2] - INFO  [main:DefaultSessionIdManager@334] - DefaultSessionIdManager workerName=node0
+2021-05-09 22:10:45,343 [myid:2] - INFO  [main:DefaultSessionIdManager@339] - No SessionScavenger set, using defaults
+2021-05-09 22:10:45,343 [myid:2] - INFO  [main:HouseKeeper@132] - node0 Scavenging every 600000ms
+2021-05-09 22:10:45,345 [myid:2] - WARN  [main:ConstraintSecurityHandler@759] - ServletContext@o.e.j.s.ServletContextHandler@dd05255{/,null,STARTING} has uncovered http methods for path: /*
+2021-05-09 22:10:45,349 [myid:2] - INFO  [main:ContextHandler@916] - Started o.e.j.s.ServletContextHandler@dd05255{/,null,AVAILABLE}
+2021-05-09 22:10:45,350 [myid:2] - WARN  [main:QuorumPeer@1135] - Problem starting AdminServer
+org.apache.zookeeper.server.admin.AdminServer$AdminServerException: Problem starting AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+	at org.apache.zookeeper.server.admin.JettyAdminServer.start(JettyAdminServer.java:179)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.start(QuorumPeer.java:1133)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.runFromConfig(QuorumPeerMain.java:229)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:137)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:91)
+Caused by: java.io.IOException: Failed to bind to /0.0.0.0:8080
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.apache.zookeeper.server.admin.JettyAdminServer.start(JettyAdminServer.java:170)
+	... 4 more
+Caused by: java.net.BindException: Die Adresse wird bereits verwendet
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	... 11 more
+org.apache.zookeeper.server.admin.AdminServer$AdminServerException: Problem starting AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+2021-05-09 22:10:45,351 [myid:2] - INFO  [main:QuorumPeer@2566] - Using 10000ms as the quorum cnxn socket timeout
+2021-05-09 22:10:45,353 [myid:2] - INFO  [main:QuorumCnxManager$Listener@924] - Election port bind maximum retries is 3
+2021-05-09 22:10:45,354 [myid:2] - INFO  [main:FastLeaderElection@89] - zookeeper.fastleader.minNotificationInterval=200
+2021-05-09 22:10:45,354 [myid:2] - INFO  [main:FastLeaderElection@91] - zookeeper.fastleader.maxNotificationInterval=60000
+2021-05-09 22:10:45,355 [myid:2] - INFO  [main:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2021-05-09 22:10:45,356 [myid:2] - INFO  [ListenerHandler-localhost/127.0.0.1:3889:QuorumCnxManager$Listener$ListenerHandler@1066] - 2 is accepting connections now, my election bind port: localhost/127.0.0.1:3889
+2021-05-09 22:10:45,361 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):QuorumPeer@1430] - LOOKING
+2021-05-09 22:10:45,362 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):FastLeaderElection@945] - New election. My id = 2, proposed zxid=0x0
+2021-05-09 22:10:45,368 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@390] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2021-05-09 22:10:45,369 [myid:2] - WARN  [QuorumConnectionThread-[myid=2]-2:QuorumCnxManager@401] - Cannot open channel to 3 at election address localhost/127.0.0.1:3890
+java.net.ConnectException: Verbindungsaufbau abgelehnt (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.initiateConnection(QuorumCnxManager.java:384)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$QuorumConnectionReqThread.run(QuorumCnxManager.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 22:10:45,372 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@390] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2021-05-09 22:10:45,374 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@390] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2021-05-09 22:10:45,574 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):QuorumPeer@901] - Peer state changed: leading
+2021-05-09 22:10:45,575 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):QuorumPeer@1524] - LEADING
+2021-05-09 22:10:45,578 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):LearnerMaster@47] - zookeeper.leader.maxConcurrentSnapSyncs = 10
+2021-05-09 22:10:45,578 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):LearnerMaster@50] - zookeeper.leader.maxConcurrentDiffSyncs = 100
+2021-05-09 22:10:45,578 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):Leader@87] - TCP NoDelay set to: true
+2021-05-09 22:10:45,578 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):Leader@108] - zookeeper.leader.ackLoggingFrequency = 1000
+2021-05-09 22:10:45,578 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):Leader@1345] - zookeeper.leader.maxTimeToWaitForEpoch = -1ms
+2021-05-09 22:10:45,581 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):BlueThrottle@141] - Weighed connection throttling is disabled
+2021-05-09 22:10:45,581 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ZooKeeperServer@1300] - minSessionTimeout set to 4000
+2021-05-09 22:10:45,581 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ZooKeeperServer@1309] - maxSessionTimeout set to 40000
+2021-05-09 22:10:45,582 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ResponseCache@45] - getData response cache size is initialized with value 400.
+2021-05-09 22:10:45,582 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ResponseCache@45] - getChildren response cache size is initialized with value 400.
+2021-05-09 22:10:45,583 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+2021-05-09 22:10:45,583 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+2021-05-09 22:10:45,584 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+2021-05-09 22:10:45,584 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+2021-05-09 22:10:45,584 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+2021-05-09 22:10:45,584 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+2021-05-09 22:10:45,585 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ZooKeeperServer@1536] - The max bytes for all large requests are set to 104857600
+2021-05-09 22:10:45,585 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ZooKeeperServer@1550] - The large request threshold is set to -1
+2021-05-09 22:10:45,585 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+2021-05-09 22:10:45,585 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+2021-05-09 22:10:45,585 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ZooKeeperServer@361] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/data/version-2 snapdir /home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/data/version-2
+2021-05-09 22:10:45,587 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):Leader@584] - LEADING - LEADER ELECTION TOOK - 224 MS
+2021-05-09 22:10:45,588 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):QuorumPeer@915] - Peer state changed: leading - discovery
+2021-05-09 22:10:45,589 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):FileTxnSnapLog@479] - Snapshotting: 0x0 to /home/laster/Schreibtisch/zookeeper/apache-zookeeper-3.7.0-bin-2/data/version-2/snapshot.0
+2021-05-09 22:10:45,590 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ZooKeeperServer@543] - Snapshot taken in 1 ms
+2021-05-09 22:10:45,595 [myid:2] - INFO  [LearnerCnxAcceptorHandler-localhost/127.0.0.1:2889:LearnerHandler@72] - leader.closeSocketAsync = false
+2021-05-09 22:10:45,597 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:45190:LearnerHandler@506] - Follower sid: 1 : info : localhost:2888:3888:participant
+2021-05-09 22:10:45,603 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):QuorumPeer@1867] - Dynamic reconfig is disabled, we don't store the last seen config.
+2021-05-09 22:10:45,605 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:45190:ZKDatabase@346] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2021-05-09 22:10:45,605 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:45190:LearnerHandler@801] - Synchronizing with Learner sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x0 peerLastZxid=0x0
+2021-05-09 22:10:45,605 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:45190:LearnerHandler@846] - Sending DIFF zxid=0x0 for peer sid: 1
+2021-05-09 22:10:45,609 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):QuorumPeer@915] - Peer state changed: leading - synchronization
+2021-05-09 22:10:45,630 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):Leader@1495] - Have quorum of supporters, sids: [[1, 2]]; starting up and setting last processed zxid: 0x100000000
+2021-05-09 22:10:45,630 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):Leader@1517] - Dynamic reconfig feature is disabled, skip designatedLeader calculation and reconfig processing.
+2021-05-09 22:10:45,635 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):CommitProcessor@491] - Configuring CommitProcessor with readBatchSize -1 commitBatchSize 1
+2021-05-09 22:10:45,635 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):CommitProcessor@452] - Configuring CommitProcessor with 12 worker threads.
+2021-05-09 22:10:45,637 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ProposalRequestProcessor@57] - zookeeper.forward_learner_requests_to_commit_processor_disabled = false
+2021-05-09 22:10:45,639 [myid:2] - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@137] - PrepRequestProcessor (sid:2) started, reconfigEnabled=false
+2021-05-09 22:10:45,640 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):ContainerManager@84] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2021-05-09 22:10:45,641 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000
+2021-05-09 22:10:45,647 [myid:2] - INFO  [QuorumPeer[myid=2](plain=[0:0:0:0:0:0:0:0]:2182)(secure=disabled):QuorumPeer@915] - Peer state changed: leading - broadcast
+2021-05-09 22:16:26,717 [myid:2] - INFO  [ListenerHandler-localhost/127.0.0.1:3889:QuorumCnxManager$Listener$ListenerHandler@1071] - Received connection request from /127.0.0.1:53742
+2021-05-09 22:16:26,721 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@390] - Notification: my state:LEADING; n.sid:3, n.state:LOOKING, n.leader:3, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2021-05-09 22:16:26,738 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:45458:LearnerHandler@506] - Follower sid: 3 : info : localhost:2890:3890:participant
+2021-05-09 22:16:26,744 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:45458:ZKDatabase@346] - On disk txn sync enabled with snapshotSizeFactor 0.33
+2021-05-09 22:16:26,745 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:45458:LearnerHandler@801] - Synchronizing with Learner sid: 3 maxCommittedLog=0x0 minCommittedLog=0x0 lastProcessedZxid=0x100000000 peerLastZxid=0x0
+2021-05-09 22:16:26,746 [myid:2] - INFO  [LearnerHandler-/127.0.0.1:45458:LearnerHandler@568] - Sending snapshot last zxid of peer is 0x0, zxid of leader is 0x100000000, send zxid of db as 0x100000000, 1 concurrent snapshot sync, snapshot sync was exempt from throttle
+2021-05-09 22:21:52,686 [myid:2] - INFO  [SyncThread:2:FileTxnLog@284] - Creating new log file: log.100000001
+2021-05-09 22:21:52,694 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0000
+2021-05-09 22:32:24,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0000, timeout of 30000ms exceeded
+2021-05-09 22:32:24,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0000
+2021-05-09 22:36:42,543 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0000
+2021-05-09 22:36:46,912 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0001
+2021-05-09 22:37:08,536 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0002
+2021-05-09 22:37:56,460 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10000
+2021-05-09 22:38:02,437 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10001
+2021-05-09 22:38:06,454 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10002
+2021-05-09 22:38:14,184 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0003
+2021-05-09 22:43:09,320 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0001
+2021-05-09 22:43:11,246 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0004
+2021-05-09 22:43:22,546 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0002
+2021-05-09 22:48:24,875 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10003
+2021-05-09 22:52:27,433 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0005
+2021-05-09 22:52:34,220 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0006
+2021-05-09 22:52:47,814 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10004
+2021-05-09 22:52:56,567 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0003
+2021-05-09 22:54:57,269 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0007
+2021-05-09 23:00:05,428 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10005
+2021-05-09 23:00:28,584 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0004
+2021-05-09 23:00:48,326 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0005
+2021-05-09 23:00:59,022 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0006
+2021-05-09 23:03:28,380 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0008
+2021-05-09 23:10:10,691 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0009
+2021-05-09 23:10:23,902 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f000a
+2021-05-09 23:10:25,057 [myid:2] - WARN  [NIOWorkerThread-22:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:48058, session = 0x20001fbd4f10004
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:10:25,058 [myid:2] - WARN  [NIOWorkerThread-2:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:47786, session = 0x20001fbd4f10000
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:10:25,058 [myid:2] - WARN  [NIOWorkerThread-1:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:47788, session = 0x20001fbd4f10001
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:10:25,057 [myid:2] - WARN  [NIOWorkerThread-24:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:47792, session = 0x20001fbd4f10002
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:10:25,057 [myid:2] - WARN  [NIOWorkerThread-23:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:47922, session = 0x20001fbd4f10003
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:10:25,057 [myid:2] - WARN  [NIOWorkerThread-21:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:48350, session = 0x20001fbd4f10005
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:10:52,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10000, timeout of 40000ms exceeded
+2021-05-09 23:10:52,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10000
+2021-05-09 23:10:54,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10003, timeout of 40000ms exceeded
+2021-05-09 23:10:54,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10003
+2021-05-09 23:10:56,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0005, timeout of 40000ms exceeded
+2021-05-09 23:10:56,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0005
+2021-05-09 23:10:58,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0002, timeout of 40000ms exceeded
+2021-05-09 23:10:58,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10001, timeout of 40000ms exceeded
+2021-05-09 23:10:58,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0002
+2021-05-09 23:10:58,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0003, timeout of 40000ms exceeded
+2021-05-09 23:10:58,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10001
+2021-05-09 23:10:58,368 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0004, timeout of 40000ms exceeded
+2021-05-09 23:10:58,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0003
+2021-05-09 23:10:58,368 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0002, timeout of 40000ms exceeded
+2021-05-09 23:10:58,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0004
+2021-05-09 23:10:58,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0002
+2021-05-09 23:10:58,394 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10006
+2021-05-09 23:11:00,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0003, timeout of 40000ms exceeded
+2021-05-09 23:11:00,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0007, timeout of 40000ms exceeded
+2021-05-09 23:11:00,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10005, timeout of 40000ms exceeded
+2021-05-09 23:11:00,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0003
+2021-05-09 23:11:00,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0004, timeout of 40000ms exceeded
+2021-05-09 23:11:00,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0007
+2021-05-09 23:11:00,368 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0000, timeout of 40000ms exceeded
+2021-05-09 23:11:00,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10005
+2021-05-09 23:11:00,368 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0001, timeout of 40000ms exceeded
+2021-05-09 23:11:00,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0004
+2021-05-09 23:11:00,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0000
+2021-05-09 23:11:00,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0001
+2021-05-09 23:11:02,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0006, timeout of 40000ms exceeded
+2021-05-09 23:11:02,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10002, timeout of 40000ms exceeded
+2021-05-09 23:11:02,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0006
+2021-05-09 23:11:02,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10004, timeout of 40000ms exceeded
+2021-05-09 23:11:02,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10002
+2021-05-09 23:11:02,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10004
+2021-05-09 23:11:04,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0006, timeout of 40000ms exceeded
+2021-05-09 23:11:04,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0008, timeout of 40000ms exceeded
+2021-05-09 23:11:04,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0006
+2021-05-09 23:11:04,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0001, timeout of 40000ms exceeded
+2021-05-09 23:11:04,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0008
+2021-05-09 23:11:04,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0005, timeout of 40000ms exceeded
+2021-05-09 23:11:04,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0001
+2021-05-09 23:11:04,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0005
+2021-05-09 23:11:06,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f000a, timeout of 40000ms exceeded
+2021-05-09 23:11:06,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0009, timeout of 40000ms exceeded
+2021-05-09 23:11:06,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f000a
+2021-05-09 23:11:06,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0009
+2021-05-09 23:11:19,444 [myid:2] - WARN  [NIOWorkerThread-13:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:48742, session = 0x20001fbd4f10006
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:11:50,033 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f000b
+2021-05-09 23:11:54,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10006, timeout of 40000ms exceeded
+2021-05-09 23:11:54,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10006
+2021-05-09 23:11:55,146 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10007
+2021-05-09 23:20:31,436 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f000c
+2021-05-09 23:29:24,575 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10008
+2021-05-09 23:29:50,681 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10009
+2021-05-09 23:31:41,478 [myid:2] - WARN  [NIOWorkerThread-11:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:49350, session = 0x20001fbd4f10008
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:31:41,478 [myid:2] - WARN  [NIOWorkerThread-12:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:48840, session = 0x20001fbd4f10007
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:31:41,478 [myid:2] - WARN  [NIOWorkerThread-10:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:49354, session = 0x20001fbd4f10009
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:32:10,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10007, timeout of 40000ms exceeded
+2021-05-09 23:32:10,369 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10007
+2021-05-09 23:32:15,073 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0007
+2021-05-09 23:32:18,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10009, timeout of 40000ms exceeded
+2021-05-09 23:32:18,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10008, timeout of 40000ms exceeded
+2021-05-09 23:32:18,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10009
+2021-05-09 23:32:18,370 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10008
+2021-05-09 23:32:20,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f000b, timeout of 40000ms exceeded
+2021-05-09 23:32:20,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f000b
+2021-05-09 23:32:22,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f000c, timeout of 40000ms exceeded
+2021-05-09 23:32:22,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f000c
+2021-05-09 23:32:54,753 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0008
+2021-05-09 23:32:55,581 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f1000a
+2021-05-09 23:33:10,932 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0009
+2021-05-09 23:34:10,174 [myid:2] - WARN  [NIOWorkerThread-7:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:49452, session = 0x20001fbd4f1000a
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-09 23:34:30,670 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f1000b
+2021-05-09 23:34:42,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0008, timeout of 40000ms exceeded
+2021-05-09 23:34:42,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f1000a, timeout of 40000ms exceeded
+2021-05-09 23:34:42,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0008
+2021-05-09 23:34:42,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f1000a
+2021-05-09 23:34:44,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0007, timeout of 40000ms exceeded
+2021-05-09 23:34:44,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0007
+2021-05-09 23:34:46,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0009, timeout of 40000ms exceeded
+2021-05-09 23:34:46,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0009
+2021-05-09 23:35:03,596 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f1000c
+2021-05-09 23:35:08,487 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f000d
+2021-05-09 23:35:17,366 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f1000d
+2021-05-09 23:35:29,390 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f000e
+2021-05-09 23:35:46,776 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f000f
+2021-05-09 23:38:31,248 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc000a
+2021-05-09 23:52:39,072 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc000b
+2021-05-10 00:03:25,610 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc000c
+2021-05-10 00:05:22,173 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0010
+2021-05-10 00:10:43,592 [myid:2] - WARN  [NIOWorkerThread-10:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:49558, session = 0x20001fbd4f1000c
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-10 00:10:43,592 [myid:2] - WARN  [NIOWorkerThread-12:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:49552, session = 0x20001fbd4f1000b
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-10 00:10:43,592 [myid:2] - WARN  [NIOWorkerThread-11:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:49562, session = 0x20001fbd4f1000d
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-10 00:11:12,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f000d, timeout of 40000ms exceeded
+2021-05-10 00:11:12,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f000d
+2021-05-10 00:11:14,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc000c, timeout of 40000ms exceeded
+2021-05-10 00:11:14,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc000a, timeout of 40000ms exceeded
+2021-05-10 00:11:14,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f1000b, timeout of 40000ms exceeded
+2021-05-10 00:11:14,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc000c
+2021-05-10 00:11:14,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc000a
+2021-05-10 00:11:14,368 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f1000b
+2021-05-10 00:11:18,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f000e, timeout of 40000ms exceeded
+2021-05-10 00:11:18,381 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f000e
+2021-05-10 00:11:20,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f1000c, timeout of 40000ms exceeded
+2021-05-10 00:11:20,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f1000d, timeout of 40000ms exceeded
+2021-05-10 00:11:20,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f1000c
+2021-05-10 00:11:20,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f1000d
+2021-05-10 00:11:22,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc000b, timeout of 40000ms exceeded
+2021-05-10 00:11:22,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f000f, timeout of 40000ms exceeded
+2021-05-10 00:11:22,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc000b
+2021-05-10 00:11:22,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f000f
+2021-05-10 00:11:24,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0010, timeout of 40000ms exceeded
+2021-05-10 00:11:24,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0010
+2021-05-10 00:27:52,336 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f1000e
+2021-05-10 00:30:51,603 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc000d
+2021-05-10 00:31:03,326 [myid:2] - WARN  [NIOWorkerThread-23:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:51092, session = 0x20001fbd4f1000e
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-10 00:31:20,288 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc000e
+2021-05-10 00:31:32,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc000d, timeout of 40000ms exceeded
+2021-05-10 00:31:32,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc000d
+2021-05-10 00:31:40,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f1000e, timeout of 40000ms exceeded
+2021-05-10 00:31:40,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f1000e
+2021-05-10 00:35:06,880 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0011
+2021-05-10 00:40:31,025 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc000f
+2021-05-10 00:45:34,800 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0012
+2021-05-10 00:45:48,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0011, timeout of 40000ms exceeded
+2021-05-10 00:45:48,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0011
+2021-05-10 00:45:50,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc000e, timeout of 40000ms exceeded
+2021-05-10 00:45:50,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc000e
+2021-05-10 00:45:52,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc000f, timeout of 40000ms exceeded
+2021-05-10 00:45:52,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc000f
+2021-05-10 00:46:31,533 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f1000f
+2021-05-10 00:47:15,816 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0013
+2021-05-10 00:48:45,233 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0010
+2021-05-10 00:50:13,557 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0014
+2021-05-10 00:52:38,799 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0011
+2021-05-10 00:53:42,879 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x10001fbd4dc0012
+2021-05-10 00:53:55,804 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0015
+2021-05-10 00:56:45,092 [myid:2] - WARN  [NIOWorkerThread-4:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:51764, session = 0x20001fbd4f1000f
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-10 00:57:12,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f1000f, timeout of 40000ms exceeded
+2021-05-10 00:57:12,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f1000f
+2021-05-10 00:57:14,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0010, timeout of 40000ms exceeded
+2021-05-10 00:57:14,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0010
+2021-05-10 00:57:18,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0015, timeout of 40000ms exceeded
+2021-05-10 00:57:18,381 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0012, timeout of 40000ms exceeded
+2021-05-10 00:57:18,381 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0015
+2021-05-10 00:57:18,381 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0013, timeout of 40000ms exceeded
+2021-05-10 00:57:18,381 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0012
+2021-05-10 00:57:18,382 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0013
+2021-05-10 00:57:20,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x10001fbd4dc0011, timeout of 40000ms exceeded
+2021-05-10 00:57:20,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x10001fbd4dc0011
+2021-05-10 00:57:22,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0014, timeout of 40000ms exceeded
+2021-05-10 00:57:22,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0014
+2021-05-10 00:57:24,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0012, timeout of 40000ms exceeded
+2021-05-10 00:57:24,366 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0012
+2021-05-10 00:57:42,445 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0016
+2021-05-10 01:02:15,961 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0017
+2021-05-10 01:06:52,396 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0018
+2021-05-10 01:08:31,164 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10010
+2021-05-10 01:08:47,321 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f0019
+2021-05-10 02:07:36,526 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x20001fbd4f10011
+2021-05-10 02:07:42,522 [myid:2] - INFO  [CommitProcessor:2:LeaderSessionTracker@104] - Committing global session 0x3000201096f001a
+2021-05-10 02:07:45,858 [myid:2] - WARN  [NIOWorkerThread-23:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:52224, session = 0x20001fbd4f10010
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-10 02:07:45,858 [myid:2] - WARN  [NIOWorkerThread-21:NIOServerCnxn@371] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:53118, session = 0x20001fbd4f10011
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:170)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:333)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-05-10 02:08:14,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0016, timeout of 40000ms exceeded
+2021-05-10 02:08:14,370 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0016
+2021-05-10 02:08:16,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0018, timeout of 40000ms exceeded
+2021-05-10 02:08:16,366 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0018
+2021-05-10 02:08:18,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10011, timeout of 40000ms exceeded
+2021-05-10 02:08:18,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10011
+2021-05-10 02:08:20,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0017, timeout of 40000ms exceeded
+2021-05-10 02:08:20,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0017
+2021-05-10 02:08:22,366 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x20001fbd4f10010, timeout of 40000ms exceeded
+2021-05-10 02:08:22,366 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x20001fbd4f10010
+2021-05-10 02:08:24,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f001a, timeout of 40000ms exceeded
+2021-05-10 02:08:24,367 [myid:2] - INFO  [SessionTracker:ZooKeeperServer@628] - Expiring session 0x3000201096f0019, timeout of 40000ms exceeded
+2021-05-10 02:08:24,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f001a
+2021-05-10 02:08:24,367 [myid:2] - INFO  [RequestThrottler:QuorumZooKeeperServer@163] - Submitting global closeSession request for session 0x3000201096f0019
