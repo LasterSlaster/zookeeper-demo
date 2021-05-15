@@ -31,6 +31,7 @@ libraryDependencies ++= Seq(
 	"org.apache.curator" % "curator-recipes" % "2.6.0" withSources() withJavadoc()
 	//"org.apache.curator" % "curator-test" % "2.6.0" withSources() withJavadoc()
 	)
+libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.3" % Runtime
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies
