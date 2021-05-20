@@ -1,0 +1,6 @@
+Präsi TODO:
+- Observer
+- Paxos bzw. ZooKeeper version/implication
+- ordered sequencial consistency
+- Leader Election Algorithm
+- Atomic Broadcast
